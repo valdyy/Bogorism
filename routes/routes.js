@@ -131,4 +131,30 @@ router.post('/login/', (req,res)=>{
     });
 });
 
+router.get('/users/:name', (req,res)=>{
+    con.query('SELECT * FROM user WHERE name=?',[req.params.name], function(err,result,fields){
+        con.on('error', function(err){
+            console.log('[MySQL ERROR]', err);
+        });
+        if(result && result.length){
+            const id = result[0].unique_id;
+            const name = result[0].name;
+            const email = result[0].email;
+            const salt = result[0].salt;
+            const password = result[0].password;
+                return res.status(200).json({
+                        userId: `${id}`,
+                        email: `${email}`,
+                        name: `${name}`,
+                        token: `${password}`
+                });
+        }else{
+            return res.status(404).json({
+                error: true,
+                message: 'Data User Not Found!'
+            });
+        }
+    });
+});
+
 module.exports = router
