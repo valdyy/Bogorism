@@ -15,7 +15,21 @@ Register
 - URL : /register
 - Method : POST
 - Response : 
-- {
--   "error": false,
--   "message": "User Created"
-- }
+<p> {
+  "error": false,
+  "message": "User Created"
+ } <p>
+
+Login
+- URL : /login
+- Method : POST
+- Response :
+<p> {
+    "error": false,
+    "message": "success",
+    "loginResult": {
+        "userId": "5e27251d-254a-489d-bd61-1ce17b85e32d",
+        "name": "cekname",
+        "token": "4c991ce9020cd8bf156ae160305bae97c079c91e938bc836d5df764cee288194161705c888476bdb5cf39ed59db3a47d2ee4fe7ec8c829050f14d3aade5110a9"
+    }
+} <p>
