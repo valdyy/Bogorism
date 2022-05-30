@@ -3,6 +3,7 @@ const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const uuid = require('uuid');
+const app = express();
 
 //Acc json params and acc URL encoded params
 app.use(bodyParser.json()); 
