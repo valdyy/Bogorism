@@ -157,4 +157,17 @@ router.get('/users/:name', (req,res)=>{
     });
 });
 
+app.get('/places/', (req,res)=>{
+    con.query('SELECT * FROM place', function(err,result,fields){
+        con.on('error', function(err){
+            console.log('[MySQL ERROR]', err);
+        });
+        if(!err){
+            res.send(result);
+        }else{
+            console.log(err);
+        }
+    });
+});
+
 module.exports = router
