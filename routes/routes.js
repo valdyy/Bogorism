@@ -2,6 +2,7 @@ const mysql = require('mysql');
 const crypto = require('crypto');
 const uuid = require('uuid');
 const express = require('express');
+const { route } = require('express/lib/router');
 const router = express.Router()
 const app = express();
 
@@ -36,7 +37,12 @@ function saltHashPassword(userPassword){
     return passwordData;
 }
 
-router.post('/register/',(req,res,next)=>{
+function checkHashPassword(userPassword,salt){
+    const passwordData = sha512(userPassword,salt);
+    return passwordData;
+}
+
+router.post('/register/',(req,res)=>{
     const post_data = req.body;
 
     const uid = uuid.v4();
@@ -80,6 +86,47 @@ router.post('/register/',(req,res,next)=>{
                     })
                 }
             })
+        }
+    });
+});
+
+router.post('/login/', (req,res)=>{
+    const post_data = req.body;
+
+    const user_password = post_data.password;
+    const email = post_data.email;
+
+    con.query('SELECT * FROM user where email=?', [email], function(err,result,fields){
+        con.on('error', function(err){
+            console.log('[MySQL ERROR]', err);
+        });
+        if(result && result.length){
+            const id = result[0].unique_id;
+            const name = result[0].name;
+            const salt = result[0].salt;
+            const password = result[0].password;
+            const hash_password = checkHashPassword(user_password,salt).passwordHash;
+            if (password == hash_password){
+                return res.status(200).json({
+                    error: false,
+                    message: 'success',
+                    loginResult: {
+                        userId: `${id}`,
+                        name: `${name}`,
+                        token: `${password}`
+                    }
+                });
+            }else{
+                return res.status(400).json({
+                    error: true,
+                    message: 'Wrong Password!'
+                });
+            }
+        }else{
+            return res.status(200).json({
+                error: true,
+                message: 'User Does Not Exist!'
+            });
         }
     });
 });
