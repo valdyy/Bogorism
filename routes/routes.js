@@ -36,11 +36,52 @@ function saltHashPassword(userPassword){
     return passwordData;
 }
 
-router.get("/a",(req,res,next)=>{
-    console.log('password :12334');
-    const encrypt = saltHashPassword('valdy');
-    console.log('encrypt: ' +encrypt.passwordHash);
-    console.log('salt: ' +encrypt.salt);
+router.post('/register/',(req,res,next)=>{
+    const post_data = req.body;
+
+    const uid = uuid.v4();
+    const plain_password = post_data.password;
+    const hash_data = saltHashPassword(plain_password);
+    const password = hash_data.passwordHash;
+    const salt = hash_data.salt;
+
+    const name = post_data.name;
+    const email = post_data.email;
+
+    con.query('SELECT * FROM user where email=?', [email], function(err,result,fields){
+        con.on('error', function(err){
+            console.log('[MySQL ERROR]', err);
+        });
+        if(result && result.length){
+            return res.status(400).json({
+                error: true,
+                message: 'User Already Exist!'
+            });
+        }else{
+            con.query('SELECT * FROM user where name=?', [name], function(err,result,fields){
+                con.on('error', function(err){
+                    console.log('[MySQL ERROR]', err)
+                });
+                if (result && result.length){
+                    return res.status(400).json({
+                        error: true,
+                        message: `User's Name Already Exist!`
+                    });
+                }else{
+                    con.query('INSERT INTO `user`(`unique_id`, `name`, `email`, `password`, `salt`, `created_at`, `updated_at`) VALUES (?,?,?,?,?,NOW(),NOW())',[uid,name,email,password,salt],function(err,result,fields){
+                        con.on('error', function(err){
+                            console.log('[MySQL ERROR]', err);
+                            res.json('Register error: ', err);
+                        });
+                        return res.status(201).json({
+                            error: false,
+                            message: 'User Created'
+                        });
+                    })
+                }
+            })
+        }
+    });
 });
 
 module.exports = router
