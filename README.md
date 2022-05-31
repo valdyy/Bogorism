@@ -8,6 +8,11 @@ Used Modules :
 - "crypto" to encrypt password
 - "uuid" to create unique id
 
+### Currently used services are :
+- Google Compute Engine
+- Google Cloud SQL
+- Google Cloud Storage 
+
 ## Endpoint
 ### http://35.212.162.240:8000
 
