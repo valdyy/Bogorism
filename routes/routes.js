@@ -189,4 +189,39 @@ router.get('/places/:category', (req,res)=>{
     });
 });
 
+router.get("/search", (req, res) => {
+    const search = req.query.search;
+    const searchPlace = req.body.searchPlace;
+    if (searchPlace !== undefined ){
+        if(searchPlace !== ""){
+            con.query(`SELECT * FROM place WHERE place_name LIKE '%${searchPlace}%'`, (err, result, field) => {
+                if(!err) {
+                    res.json(result);
+                } else {
+                    res.status(404).json({message: err.sqlMessage});
+                };
+            });
+        }else{
+            res.status(404).json("Pl;ease enter a search key!");
+        };
+        }else{
+            if(search !== undefined){
+                if (search !== ""){
+
+                    con.query(`SELECT * FROM place WHERE place_name LIKE '%${search}%'`, (err, result, field) => {
+                        if(!err) {
+                            res.json(result);
+                        } else {
+                            res.status(404).json({message: err.sqlMessage});
+                        };
+                    });
+                }else{
+                    res.status(404).json("Please enter a search key!")
+                };
+        }else{
+            res.status(404).json("Please enter a search key in 'BODY' or 'PARAMS'!")
+        };
+    };
+});
+
 module.exports = router

@@ -86,3 +86,41 @@ Get places by category
 &nbsp;},<br>
 &nbsp;...<br>
 ]<br>
+
+Search place by name with query params "search"
+- URL : /search
+- Method : GET
+- Response : <br>
+[<br>
+&nbsp;{<br>
+&nbsp;&nbsp;"place_id": 1,<br>
+&nbsp;&nbsp;"place_name": "Curug Cikuluwung",<br>
+&nbsp;&nbsp;"description": "A tourist spot that serves 2 waterfalls located in Suka Asih Village Waterfall",<br>
+&nbsp;&nbsp;*"category": "Natural"*,<br>
+&nbsp;&nbsp;"city": "Bogor",<br>
+&nbsp;&nbsp;"price": 20000,<br>
+&nbsp;&nbsp;"rating": 4.4,<br>
+&nbsp;&nbsp;"lat": -6.642084,<br>
+&nbsp;&nbsp;"long": 106.643266<br>
+&nbsp;},<br>
+&nbsp;...<br>
+]<br>
+
+Search place by name with body "searchPlace"
+- URL : /search
+- Method : GET
+- Response : <br>
+[<br>
+&nbsp;{<br>
+&nbsp;&nbsp;"place_id": 1,<br>
+&nbsp;&nbsp;"place_name": "Curug Cikuluwung",<br>
+&nbsp;&nbsp;"description": "A tourist spot that serves 2 waterfalls located in Suka Asih Village Waterfall",<br>
+&nbsp;&nbsp;*"category": "Natural"*,<br>
+&nbsp;&nbsp;"city": "Bogor",<br>
+&nbsp;&nbsp;"price": 20000,<br>
+&nbsp;&nbsp;"rating": 4.4,<br>
+&nbsp;&nbsp;"lat": -6.642084,<br>
+&nbsp;&nbsp;"long": 106.643266<br>
+&nbsp;},<br>
+&nbsp;...<br>
+]<br>
