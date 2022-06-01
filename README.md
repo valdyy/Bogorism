@@ -73,8 +73,8 @@ Get all places
 &nbsp;...<br>
 ]<br>
 
-Get places by category
-- URL : /places/{category}
+Get places by category with query params "category"
+- URL : /places
 - Method : GET
 - Response : <br>
 [<br>

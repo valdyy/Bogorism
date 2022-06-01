@@ -157,36 +157,31 @@ router.get('/users/:name', (req,res)=>{
     });
 });
 
-router.get('/places/', (req,res)=>{
-    con.query('SELECT * FROM place', function(err,result,fields){
-        con.on('error', function(err){
-            console.log('[MySQL ERROR]', err);
-        });
-        if(!err){
-            res.send(result);
-        }else{
-            return res.status(404).json({
-                error: true,
-                message: 'Np Data Places Found!'
+router.get('/places', (req,res)=>{
+    const category = req.query.category;
+    if (!category){
+        con.query('SELECT * FROM place', function(err,result,fields){
+            con.on('error', function(err){
+                console.log('[MySQL ERROR]', err);
             });
-        }
-    });
-});
-
-router.get('/places/:category', (req,res)=>{
-    con.query('SELECT * FROM place WHERE category=?',[req.params.category], function(err,result,fields){
-        con.on('error', function(err){
-            console.log('[MySQL ERROR]', err);
+            if(!err){
+                res.send(result);
+            }else{
+                console.log(err);
+            }
         });
-        if(!err){
-            res.send(result);
-        }else{
-            return res.status(404).json({
-                error: true,
-                message: 'No Data Places Found!'
+    }else{
+        con.query(`SELECT * FROM place WHERE category= '${category}'`, function(err,result,fields){
+            con.on('error', function(err){
+                console.log('[MySQL ERROR]', err);
             });
-        }
-    });
+            if(!err){
+                res.send(result);
+            }else{
+                console.log(err);
+            }
+        });
+    }
 });
 
 router.get("/search", (req, res) => {
