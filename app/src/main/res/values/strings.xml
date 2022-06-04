@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bogorism</string>
+    <string name="hello">Hello,</string>
+    <string name="recommendation">Recommendations</string>
+    <string name="categories">Categories</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="wellcome">Wellcome</string>
+    <string name="sub_title_login">Login to your account</string>
+    <string name="notyet_signup">don\'t have an account yet ?</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="sub_title_register">Signup your account</string>
+    <string name="have_account">already have an account ?</string>
+    <string name="message_validation">Enter your %1$s correctly !</string>
+    <string name="title_alert_dialog">Yeah !!</string>
+    <string name="message_alert">Account created successfully</string>
+    <string name="signup_error">Registration failed !</string>
+    <string name="title_logout">Logout</string>
+    <string name="login_error">Login error !</string>
+    <string name="account">Account</string>
+    <string name="lets_explore">Let\'s explore some interesting destinations</string>
+    <string name="title_account">Account</string>
+    <string name="title_map">Map</string>
+    <string name="title_search">Search</string>
+    <string name="location_not_found">Location Not Found</string>
+    <string name="my_loc">My Location</string>
+    <string name="search">Search</string>
+    <string name="rating">Rating :</string>
+</resources>
