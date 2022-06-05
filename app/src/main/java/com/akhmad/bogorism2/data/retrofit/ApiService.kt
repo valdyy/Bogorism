@@ -34,4 +34,8 @@ interface ApiService {
     @GET("places")
     fun getMarker() : Call<PlacesResponse>
 
+    @GET("places/{category}")
+    fun getNatural(
+    )
+
 }
