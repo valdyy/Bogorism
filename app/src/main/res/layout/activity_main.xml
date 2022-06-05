@@ -69,11 +69,11 @@
         android:text="@string/categories"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cat_forest"
+        android:id="@+id/cat_natural"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -85,63 +85,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:padding="25dp"
-            android:src="@drawable/forest" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cat_family"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
-        app:layout_constraintEnd_toStartOf="@id/cat_cottage"
-        app:layout_constraintStart_toEndOf="@+id/cat_forest"
-        app:layout_constraintTop_toTopOf="@+id/cat_forest">
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:padding="25dp"
-            android:src="@drawable/family"
-            app:layout_constraintStart_toEndOf="@+id/wrap_content"
-            app:layout_constraintTop_toTopOf="@+id/wrap_content" />
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cat_cottage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
-        app:cardCornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cat_family">
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:padding="25dp"
-            android:src="@drawable/cottage"
-            app:layout_constraintStart_toEndOf="@+id/cat_forest"
-            app:layout_constraintTop_toTopOf="@+id/cat_forest" />
-
-    </androidx.cardview.widget.CardView>
-
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cat_water"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
-        app:layout_constraintStart_toStartOf="@+id/cat_forest"
-        app:layout_constraintTop_toBottomOf="@+id/cat_forest">
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:padding="25dp"
-            android:src="@drawable/water"/>
+            android:src="@drawable/natural" />
 
     </androidx.cardview.widget.CardView>
 
@@ -150,34 +94,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        app:layout_constraintStart_toEndOf="@+id/cat_water"
-        app:layout_constraintTop_toTopOf="@+id/cat_water"
-        app:layout_constraintEnd_toStartOf="@+id/cat_nature">
+        app:layout_constraintEnd_toStartOf="@id/cat_religious"
+        app:layout_constraintStart_toEndOf="@+id/cat_natural"
+        app:layout_constraintTop_toTopOf="@+id/cat_natural">
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:padding="25dp"
-            android:src="@drawable/restaurant"
+            android:src="@drawable/food"
             app:layout_constraintStart_toEndOf="@+id/wrap_content"
             app:layout_constraintTop_toTopOf="@+id/wrap_content" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cat_nature"
+        android:id="@+id/cat_religious"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         app:cardCornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="@+id/cat_cottage"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/cat_food">
 
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:padding="25dp"
-            android:src="@drawable/landscape"
+            android:src="@drawable/religious"
             app:layout_constraintStart_toEndOf="@+id/cat_forest"
             app:layout_constraintTop_toTopOf="@+id/cat_forest" />
 
