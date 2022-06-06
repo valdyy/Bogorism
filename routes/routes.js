@@ -161,7 +161,7 @@ router.get('/users/:name', (req,res)=>{
 router.get('/places', (req,res)=>{
     const category = req.query.category;
     if (!category){
-        con.query('SELECT * FROM place', function(err,result,fields){
+        con.query('select place.*, placeImg.image_a, placeImg.image_b  from place inner join placeImg on place.place_id=placeImg.place_id;', function(err,result,fields){
             con.on('error', function(err){
                 console.log('[MySQL ERROR]', err);
             });
@@ -176,7 +176,7 @@ router.get('/places', (req,res)=>{
             }
         });
     }else{
-        con.query(`SELECT * FROM place WHERE category= '${category}'`, function(err,result,fields){
+        con.query(`select place.*, placeImg.image_a, placeImg.image_b  from place inner join placeImg on place.place_id=placeImg.place_id WHERE category= '${category}'`, function(err,result,fields){
             con.on('error', function(err){
                 console.log('[MySQL ERROR]', err);
             });
@@ -230,7 +230,7 @@ router.get("/search", (req, res) => {
 })
 
 router.get('/places/:place_name', (req,res)=>{
-    con.query('SELECT * FROM place WHERE place_name=?',[req.params.place_name], function(err,result,fields){
+    con.query('select place.*, placeImg.image_a, placeImg.image_b  from place inner join placeImg on place.place_id=placeImg.place_id WHERE place_name=?',[req.params.place_name], function(err,result,fields){
         con.on('error', function(err){
             console.log('[MySQL ERROR]', err);
         });
