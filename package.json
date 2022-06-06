@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/valdyy/Bogorism#readme",
   "dependencies": {
+    "@tensorflow/tfjs": "^3.18.0",
     "body-parser": "^1.20.0",
     "crypto": "^1.0.1",
     "express": "^4.18.1",

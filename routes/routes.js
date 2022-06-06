@@ -2,7 +2,8 @@ const mysql = require('mysql');
 const crypto = require('crypto');
 const uuid = require('uuid');
 const express = require('express');
-const { route } = require('express/lib/router');
+const model = require('./model');
+const recommendationResults = require('./model');
 const router = express.Router()
 const app = express();
 
@@ -165,7 +166,11 @@ router.get('/places', (req,res)=>{
                 console.log('[MySQL ERROR]', err);
             });
             if(!err){
-                res.send(result);
+                return res.status(200).json({
+                    error: false,
+                    message: 'All Places Data',
+                    placeResult: result,
+                });
             }else{
                 console.log(err);
             }
@@ -176,7 +181,11 @@ router.get('/places', (req,res)=>{
                 console.log('[MySQL ERROR]', err);
             });
             if(!err){
-                res.send(result);
+                return res.status(200).json({
+                    error: false,
+                    message: `Places by Category ${category}`,
+                    placeResult: result,
+                });
             }else{
                 console.log(err);
             }
@@ -186,37 +195,67 @@ router.get('/places', (req,res)=>{
 
 router.get("/search", (req, res) => {
     const search = req.query.search;
-    const searchPlace = req.body.searchPlace;
-    if (searchPlace !== undefined ){
-        if(searchPlace !== ""){
-            con.query(`SELECT * FROM place WHERE place_name LIKE '%${searchPlace}%'`, (err, result, field) => {
-                if(!err) {
-                    res.json(result);
-                } else {
-                    res.status(404).json({message: err.sqlMessage});
-                };
-            });
-        }else{
-            res.status(404).json("Pl;ease enter a search key!");
-        };
-        }else{
-            if(search !== undefined){
-                if (search !== ""){
-
-                    con.query(`SELECT * FROM place WHERE place_name LIKE '%${search}%'`, (err, result, field) => {
-                        if(!err) {
-                            res.json(result);
-                        } else {
-                            res.status(404).json({message: err.sqlMessage});
-                        };
+    if(search !== undefined){
+        if (search !== ""){
+            con.query(`SELECT * FROM place WHERE place_name LIKE '%${search}%'`, (err, result, field) => {
+                if (result == ""){
+                    return res.status(404).json({
+                        error: true,
+                        message: 'No places found by this search key'
                     });
                 }else{
-                    res.status(404).json("Please enter a search key!")
-                };
+                    if(!err) {
+                        return res.status(200).json({
+                            error: false,
+                            founded: result.length,
+                            placeResult: result,
+                        });
+                    } else {
+                        res.status(404).json({message: err.sqlMessage});
+                    }
+                }
+                })
+            }else{
+                return res.status(404).json({
+                    error: true,
+                    message: 'Please enter a search key!'
+                });
+            }
         }else{
-            res.status(404).json("Please enter a search key in 'BODY' or 'PARAMS'!")
-        };
-    };
+            return res.status(404).json({
+                error: true,
+                message: `Please enter a search key 'search' in 'PARAMS'!`
+            });
+        }
+})
+
+router.get('/places/:place_name', (req,res)=>{
+    con.query('SELECT * FROM place WHERE place_name=?',[req.params.place_name], function(err,result,fields){
+        con.on('error', function(err){
+            console.log('[MySQL ERROR]', err);
+        });
+        const place_name = req.params.place_name
+        if(result && result.length){
+            return res.status(200).json({
+                error: false,
+                message: `Detail for ${place_name}`,
+                detail: result,
+            })
+        }else{
+            return res.status(404).json({
+                error: true,
+                message: 'Data Place Not Found!'
+            });
+        }
+    });
 });
+
+router.get('/recommend/:userId', (req, res) => {
+    const userId = req.params.userId;
+    model.recommend(userId)
+    setTimeout(() => {
+        return res.status(200).json(recommendationResults);
+    }, 250);
+  });
 
 module.exports = router

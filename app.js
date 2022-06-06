@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const router =  require('./routes/routes');
+const router = require('./routes/routes');
 //Acc json params and acc URL encoded params
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extended: true}));
