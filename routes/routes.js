@@ -255,7 +255,7 @@ router.get('/recommend/:userId', (req, res) => {
     model.recommend(userId)
     setTimeout(() => {
         return res.status(200).json(recommendationResults);
-    }, 250);
+    }, 300);
   });
 
 module.exports = router

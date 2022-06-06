@@ -25,7 +25,7 @@ async function recommend(userId){
     console.log(`Recommending for user: ${userId}`);
     pred_tensor = await model.predict([place_arr, user]).reshape([place_len]);
     pred = pred_tensor.arraySync();
-    recommendationResults.splice(0,6)
+    recommendationResults.splice(0,6);
 
     for (let i = 0; i<6; i++){
         max = pred_tensor.argMax().arraySync();
@@ -33,6 +33,7 @@ async function recommend(userId){
         pred.splice(max, 1);
         pred_tensor = tf.tensor(pred);
     }
+    console.log(recommendationResults)
     return (recommendationResults)
 }
 
