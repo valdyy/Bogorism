@@ -1,0 +1,1804 @@
+[
+    {
+        "Place_Id":1,
+        "Place_Name":"Curug Cikuluwung",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/1-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/1-B.jpg"
+        ],
+        "Description":"A tourist spot that serves 2 waterfalls located in Suka Asih Village Waterfall",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.4,
+        "Lat":-6.642084,
+        "Long":106.643266
+    },
+    {
+        "Place_Id":2,
+        "Place_Name":"Curug Love",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/2-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/2-B.jpg"
+        ],
+        "Description":"This waterfall has a water flow that resembles the shape of a heart because of the rocks that split in the middle of the flow",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-7.21425,
+        "Long":107.03078
+    },
+    {
+        "Place_Id":3,
+        "Place_Name":"Devoyage Bogor (Kampung Eropa)",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/3-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/3-B.jpg"
+        ],
+        "Description":"Enjoy the european atmosphere with cheap budget without the need to go abroad",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":50000,
+        "Rating":4.1,
+        "Lat":-6.637331,
+        "Long":106.795164
+    },
+    {
+        "Place_Id":4,
+        "Place_Name":"Taman Buah Mekarsari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/4-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/4-B.jpg"
+        ],
+        "Description":"playing among the fruits trees with the family where there are various kinds of fruits and plant",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.5,
+        "Lat":-6.414543,
+        "Long":106.986639
+    },
+    {
+        "Place_Id":5,
+        "Place_Name":"The Ranch Cisarua",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/5-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/5-B.jpg"
+        ],
+        "Description":"Cowboy-themed playground with cool mountain air, complete with castle and flower plants",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.5,
+        "Lat":-6.659023,
+        "Long":106.914103
+    },
+    {
+        "Place_Id":6,
+        "Place_Name":"Jungle Fest",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/6-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/6-B.jpg"
+        ],
+        "Description":"theme park with a lifestyle concept that offers a beautiful natural atmosphere even though it is in the middle of the city",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":75000,
+        "Rating":4.5,
+        "Lat":-6.641244,
+        "Long":106.786651
+    },
+    {
+        "Place_Id":7,
+        "Place_Name":"Rumah Air Resto",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/7-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/7-B.jpg"
+        ],
+        "Description":"provide varity of fish dish, tilapia,  squid and shrimp. also equipped with exciting games",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":4000,
+        "Rating":4.5,
+        "Lat":-6.637456,
+        "Long":106.793894
+    },
+    {
+        "Place_Id":8,
+        "Place_Name":"Kuntum Farm Field",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/8-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/8-B.jpg"
+        ],
+        "Description":"Kuntum Farm Field is a place to turn your children into happy shepherds",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":50000,
+        "Rating":4.0,
+        "Lat":-6.641537,
+        "Long":106.839665
+    },
+    {
+        "Place_Id":9,
+        "Place_Name":"Masjid Agung Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/9-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/9-B.jpg"
+        ],
+        "Description":"The mosque  which is located right in the middle of Pasar Anyar  is a mosque that is never empty of visitors  either on weekdays or on religious days such as Ramadan",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-6.593449,
+        "Long":106.792103
+    },
+    {
+        "Place_Id":10,
+        "Place_Name":"Masjid Raya Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/10-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/10-B.jpg"
+        ],
+        "Description":"The mosque  which is located not far from the entrance of the Jagorawi Toll Road  is a mosque that is quite magnificent with all the facilities that can be used",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.5,
+        "Lat":-6.606917,
+        "Long":106.808808
+    },
+    {
+        "Place_Id":11,
+        "Place_Name":"Masjid An Nur",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/11-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/11-B.jpg"
+        ],
+        "Description":"This mosque does not look as grand as other mosques but this mosque has its uniqueness  namely that there is a country-style atmosphere in the Middle East",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.6,
+        "Lat":-6.608388,
+        "Long":106.795908
+    },
+    {
+        "Place_Id":12,
+        "Place_Name":"Masjid Andalusia",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/12-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/12-B.jpg"
+        ],
+        "Description":"One of the interesting things about this mosque comes from its beautiful building and is predicted to be similar to Haghia Sophia",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.0,
+        "Lat":-6.568264,
+        "Long":106.846855
+    },
+    {
+        "Place_Id":13,
+        "Place_Name":"Masjid Atta awun",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/13-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/13-B.jpg"
+        ],
+        "Description":"Having a very large yard with cool weather in the style of the peak  will make you feel at home for long in this mosque",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.2,
+        "Lat":-6.568264,
+        "Long":106.846855
+    },
+    {
+        "Place_Id":14,
+        "Place_Name":"Musala Di Vihara Pan Kho Bio",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/14-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/14-B.jpg"
+        ],
+        "Description":"the location is around Babakan Central Bogor District. Many agree that this prayer room is a tangible form of representation of tolerance between religious communities in Bogor",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.8,
+        "Lat":-6.483585,
+        "Long":106.748656
+    },
+    {
+        "Place_Id":15,
+        "Place_Name":"Botani Square",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/15-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/15-B.jpg"
+        ],
+        "Description":"The Botani Square is located besides the Hotel Santika Bogor. Very convenient and many food outlets for choice. There are also many branded stores and departmental stores. Several fast food outlets and cafes for coffee too",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-6.600993,
+        "Long":106.807021
+    },
+    {
+        "Place_Id":16,
+        "Place_Name":"Bukit Alesano",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/16-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/16-B.jpg"
+        ],
+        "Description":"The hill in Cipelang Village  which is located at an altitude  allows tourists to see the whole city of Bogor",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.3,
+        "Lat":-6.707257,
+        "Long":106.777102
+    },
+    {
+        "Place_Id":17,
+        "Place_Name":"Gunung Gede",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/17-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/17-B.jpg"
+        ],
+        "Description":"It is one of the best-selling climbing spots because the location from the peak is close to Jakarta and Bandung  so many workers are refreshing",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":20500,
+        "Rating":4.4,
+        "Lat":-6.73719,
+        "Long":107.004648
+    },
+    {
+        "Place_Id":18,
+        "Place_Name":"Curug Cikaracak",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/18-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/18-B.jpg"
+        ],
+        "Description":"The waterfall which has 2 waterfalls as high as 20 meters and 40 meters has a fairly swift and clear flow so that visitors can enjoy the freshness of bathing under the splashing water",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.7,
+        "Lat":-6.7547,
+        "Long":106.873933
+    },
+    {
+        "Place_Id":19,
+        "Place_Name":"Jungle Land Adventure Theme",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/19-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/19-B.jpg"
+        ],
+        "Description":"a forest-themed place that provides rides for all types of visitors",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":185000,
+        "Rating":4.6,
+        "Lat":-6.572278,
+        "Long":106.894679
+    },
+    {
+        "Place_Id":20,
+        "Place_Name":"Curug Putri Kencana",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/20-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/20-B.jpg"
+        ],
+        "Description":"Curug Putri Kencana is a waterfall with a height of approximately 7 meters. This waterfall is surrounded by high rock walls and wild forests. The water is famous for its blue-green color and very clear. The sound of various wild animals such as birdsong adorns this area  making anyone who comes feel at one with nature",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.5,
+        "Lat":-6.7547,
+        "Long":106.873933
+    },
+    {
+        "Place_Id":21,
+        "Place_Name":"Curug Bidadari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/21-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/21-B.jpg"
+        ],
+        "Description":"This waterfall has a height of about 40-75 meters with a width of 7 meters. In the past  it was known as Curug Bojong Koneng",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.1,
+        "Lat":-6.613708,
+        "Long":106.908364
+    },
+    {
+        "Place_Id":22,
+        "Place_Name":"Taman Safari Indonesia",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/22-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/22-B.jpg"
+        ],
+        "Description":"go on a safari to see the animals in their natural habitat",
+        "Category":"Animals",
+        "City":"Bogor",
+        "Price":170000,
+        "Rating":4.7,
+        "Lat":-6.722299,
+        "Long":106.951603
+    },
+    {
+        "Place_Id":23,
+        "Place_Name":"Wisata Penangkaran Rusa Giri Jaya",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/23-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/23-B.jpg"
+        ],
+        "Description":"spend time playing and joking with the adorable deer stag",
+        "Category":"Animals",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.1,
+        "Lat":-6.636581,
+        "Long":107.17227
+    },
+    {
+        "Place_Id":24,
+        "Place_Name":"Curug Cigamea",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/24-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/24-B.jpg"
+        ],
+        "Description":"The two waterfalls are located next to each other and are very beautiful. Curug Cigamea is located in the Mount Salak Endah Tourism Area within the Mount Halimun Salak National Park (TNGHS)",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.695959,
+        "Long":106.688613
+    },
+    {
+        "Place_Id":25,
+        "Place_Name":"Mall BTM Bogor",
+        "Image_Url": 
+        [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/25-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/25-B.jpg"
+        ],
+        "Description":"Mall BTM Bogor is a renowned shopping and entertainment center in Bogor city",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.0,
+        "Lat":-6.604391,
+        "Long":106.796151
+    },
+    {
+        "Place_Id":26,
+        "Place_Name":"Ski Tajur Katulampa",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/26-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/26-B.jpg"
+        ],
+        "Description":"This place is good place to family vacation. There is so many kind of games for children and food also.",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.3,
+        "Lat":-6.622126,
+        "Long":106.821334
+    },
+    {
+        "Place_Id":27,
+        "Place_Name":"Marcopolo Water Adventure",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/27-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/27-B.jpg"
+        ],
+        "Description":"a unique swimming pool that will take you on an adventure with your little one",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":55000,
+        "Rating":4.5,
+        "Lat":-6.547439,
+        "Long":106.782777
+    },
+    {
+        "Place_Id":28,
+        "Place_Name":"Taman Wisata Matahari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/28-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/28-B.jpg"
+        ],
+        "Description":"have fun while getting acquainted with the beautiful and cool nature of the mountains. super complete tourist spot",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":60000,
+        "Rating":4.4,
+        "Lat":-6.656141,
+        "Long":106.916704
+    },
+    {
+        "Place_Id":29,
+        "Place_Name":"Chocomory",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/29-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/29-B.jpg"
+        ],
+        "Description":"One of the places that must be visited in Bogor because here you can buy various kinds of souvenirs typical of Bogor",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":50000,
+        "Rating":5.0,
+        "Lat":-6.616244,
+        "Long":106.814426
+    },
+    {
+        "Place_Id":30,
+        "Place_Name":"water joy Waterpark",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/30-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/30-B.jpg"
+        ],
+        "Description":"water tourism with many water rides that can be enjoyed",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":35000,
+        "Rating":4.7,
+        "Lat":-6.392972,
+        "Long":106.999379
+    },
+    {
+        "Place_Id":31,
+        "Place_Name":"Rumoh Kupi Premium",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/31-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/31-B.jpg"
+        ],
+        "Description":"even though the name is rumoh kupi premium, apart from coffe here you will be spoiledby various typical dishes from serambi mekkah which are rich in spices and full of flavor.",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":19500,
+        "Rating":4.4,
+        "Lat":-6.575748,
+        "Long":106.800743
+    },
+    {
+        "Place_Id":32,
+        "Place_Name":"Kid Zoona Cibinong City",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/32-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/32-B.jpg"
+        ],
+        "Description":"a place where children can play happily. they can play playrole with their parents or other visitors",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":150000,
+        "Rating":4.5,
+        "Lat":-6.484075,
+        "Long":106.84241
+    },
+    {
+        "Place_Id":33,
+        "Place_Name":"The Illusion",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/33-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/33-B.jpg"
+        ],
+        "Description":"one of the first and largest indoor places in bogor suitable for unique photo spots because there are a variety of interesting 3D spots",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":70000,
+        "Rating":4.6,
+        "Lat":-6.634807,
+        "Long":106.79442
+    },
+    {
+        "Place_Id":34,
+        "Place_Name":"Gerai Nusantara",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/34-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/34-B.jpg"
+        ],
+        "Description":"Gerai Nusantara is an economic business initiative built by the Alliance of Indigenous Peoples of the Archipelago (AMAN) to promote superior products produced by indigenous AMAN members",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":50000,
+        "Rating":4.4,
+        "Lat":-6.588759,
+        "Long":106.796833
+    },
+    {
+        "Place_Id":35,
+        "Place_Name":"Wayang Golek Pak Dase",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/35-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/35-B.jpg"
+        ],
+        "Description":"one of the beautiful traditional art products whose names are mentioned in many world travel guide books  30 of which are written in various languages. Pak Dase is sought after by many people  both local and foreign  to carve their faces on his high quality wooden carved wayang golek",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.7,
+        "Lat":-6.59186,
+        "Long":106.79882
+    },
+    {
+        "Place_Id":36,
+        "Place_Name":"Cimory RiverSide",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/36-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/36-B.jpg"
+        ],
+        "Description":"enjoy the beauty of the river by climbing the wooden bridge that juts into the river",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.652343,
+        "Long":106.908551
+    },
+    {
+        "Place_Id":37,
+        "Place_Name":"Melrimba Garden",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/37-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/37-B.jpg"
+        ],
+        "Description":"there are many pine trees and colorful flower plants to accompany you when playing very exciting rides",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.698505,
+        "Long":106.994819
+    },
+    {
+        "Place_Id":38,
+        "Place_Name":"Curug Pangeran",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/38-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/38-B.jpg"
+        ],
+        "Description":"This waterfall with a height of about 6 meters is located in the upper reaches of the Mount Salak spring. The water is very clear with the reflection of bluish green light",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.697588,
+        "Long":106.691488
+    },
+    {
+        "Place_Id":39,
+        "Place_Name":"Curug 7 Cilember",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/39-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/39-B.jpg"
+        ],
+        "Description":"Curug Cilember which has seven waterfalls in it is one of the popular tourist destinations from Bogor. This place offers nature recreation and other activities that are friendly for all ages",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":12000,
+        "Rating":4.5,
+        "Lat":-6.660492,
+        "Long":106.946157
+    },
+    {
+        "Place_Id":40,
+        "Place_Name":"Curug Ciherang",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/40-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/40-B.jpg"
+        ],
+        "Description":"The main attraction of Curug Ciherang is a three-story waterfall. The water is fresh  clear  and surrounded by green trees. At each level  the waterfall is a favorite photo spot for tourists.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":40000,
+        "Rating":4.6,
+        "Lat":-6.636565,
+        "Long":106.998455
+    },
+    {
+        "Place_Id":41,
+        "Place_Name":"Curug Ciputri",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/41-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/41-B.jpg"
+        ],
+        "Description":"Curug Ciputri has a height of about 30 meters  with a pool of water that is not too big. The water is also clean  and the current is not too big",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.4,
+        "Lat":-6.683513,
+        "Long":106.706002
+    },
+    {
+        "Place_Id":42,
+        "Place_Name":"Curug Barong",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/42-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/42-B.jpg"
+        ],
+        "Description":"The height of Curug Barong is only about 7 meters  even though the water flow is quite heavy and the water is very clear and clean. The water flow comes from the Cirangrang River",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.4,
+        "Lat":-6.594653,
+        "Long":106.954402
+    },
+    {
+        "Place_Id":43,
+        "Place_Name":"The Escape Hunt",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/43-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/43-B.jpg"
+        ],
+        "Description":"Escape Hunt is a recreational area located in South Bogor. In this place, you will act as a detective who is in a locked room and is only given 1 hour to solve the puzzle.",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":70000,
+        "Rating":4.4,
+        "Lat":-6.575529,
+        "Long":106.849335
+    },
+    {
+        "Place_Id":44,
+        "Place_Name":"Curug Cibaliung",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/44-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/44-B.jpg"
+        ],
+        "Description":"In addition to the clear water  the large rocks around the waterfall can spoil the eyes  it's so beautiful",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.7,
+        "Lat":-6.598453,
+        "Long":106.958059
+    },
+    {
+        "Place_Id":45,
+        "Place_Name":"Bogor Aquarium ",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/45-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/45-B.jpg"
+        ],
+        "Description":"Bogor Aquarium offers modern marine tourism attractions that are not only entertaining, but also educational.",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":185000,
+        "Rating":4.6,
+        "Lat":-6.175264,
+        "Long":106.790468
+    },
+    {
+        "Place_Id":46,
+        "Place_Name":"Makam Mbah Arya Baya Rahiya",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/46-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/46-B.jpg"
+        ],
+        "Description":"Grandmother Ara's tomb is a cultural charm of religious tourism located in Pasir Angin Village  Cipayung District Mega Mendung Regency  Bogor Regency with an estimated distance of 26 km from Cibinong City.",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.0,
+        "Lat":-6.640814,
+        "Long":106.877576
+    },
+    {
+        "Place_Id":47,
+        "Place_Name":"Cibalung Happy Land",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/47-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/47-B.jpg"
+        ],
+        "Description":"Cibalung Happy Land as the name suggests will spread happiness to visitors with exciting games",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":30000,
+        "Rating":4.5,
+        "Lat":-6.689986,
+        "Long":106.808091
+    },
+    {
+        "Place_Id":48,
+        "Place_Name":"Curug Leuwi Lieuk",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/48-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/48-B.jpg"
+        ],
+        "Description":"Curug Leuwi Lieuk is one of the many waterfalls in the Sentul area, Bogor. The word \"leuwi\" is Sundanese which means bottom. Lubuk is the deepest part of a river",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.592435,
+        "Long":106.954936
+    },
+    {
+        "Place_Id":49,
+        "Place_Name":"Curug Cibulao",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/49-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/49-B.jpg"
+        ],
+        "Description":" The name \"Cibulao\" is a description of this waterfall. Derived from the Sundanese language, \"ci\" means 'water', and \"bulao\" means 'blue'. This word indicates the condition of Curug Cibulao which is indeed clear blue",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":12000,
+        "Rating":4.8,
+        "Lat":-6.645032,
+        "Long":106.950746
+    },
+    {
+        "Place_Id":50,
+        "Place_Name":"Curug Balong Endah",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/50-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/50-B.jpg"
+        ],
+        "Description":"This waterfall area is also surrounded by many towering shady trees. You will also find several rocky hills that complement the beauty of this waterfall",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":7500,
+        "Rating":4.0,
+        "Lat":-6.696315,
+        "Long":106.691701
+    },
+    {
+        "Place_Id":51,
+        "Place_Name":"Planetarium",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/51-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/51-B.jpg"
+        ],
+        "Description":"Planetarium is an educational tourism facility that can provide performances \/ demonstrations of simulations of astrology or celestial objects.",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":12000,
+        "Rating":4.1,
+        "Lat":-6.190023,
+        "Long":106.838798
+    },
+    {
+        "Place_Id":52,
+        "Place_Name":"Curug Nangka",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/52-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/52-B.jpg"
+        ],
+        "Description":"Curug Nangka is a waterfall tourist attraction at the foot of Mount Salak. This tourist attraction is included in the Halimun Salak National Park area. Located at an altitude of 750 meters above sea level and surrounded by pine forests  the air is very cool",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.1,
+        "Lat":-6.668845,
+        "Long":106.726526
+    },
+    {
+        "Place_Id":53,
+        "Place_Name":"Curug Ngumpet",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/53-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/53-B.jpg"
+        ],
+        "Description":"Curug Ngumpet has clear water  but the current falls in a strong trough. So that the whirlpool in the trough or pool where the waterfall falls  becomes a location that is prohibited from doing swimming activities",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":7000,
+        "Rating":4.5,
+        "Lat":-6.693215,
+        "Long":106.691824
+    },
+    {
+        "Place_Id":54,
+        "Place_Name":"Kebun Raya Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/54-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/54-B.jpg"
+        ],
+        "Description":"the largest garden in bogor with various plants growing and there are also various monuments",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.7,
+        "Lat":-6.597525,
+        "Long":106.799638
+    },
+    {
+        "Place_Id":55,
+        "Place_Name":"Ranca Upas",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/55-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/55-B.jpg"
+        ],
+        "Description":"Pose with cute reindeer deer here and explore the nature tours that have recently become popular",
+        "Category":"Animals",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.5,
+        "Lat":-7.13769,
+        "Long":107.393416
+    },
+    {
+        "Place_Id":56,
+        "Place_Name":"Gereja Katedral Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/56-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/56-B.jpg"
+        ],
+        "Description":"Bogor Cathedral Church has a building area of more than 1200 square meters. The architectural style of the church looks classic with a geometric impression. This is a Dutch heritage church that is still preserved in its shape",
+        "Category":"Religious",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-6.596614,
+        "Long":106.793016
+    },
+    {
+        "Place_Id":57,
+        "Place_Name":"Eco Art Park Sentul",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/57-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/57-B.jpg"
+        ],
+        "Description":"There are 2 unique gardens, the sculpture garden and the science garden, which make this place a favorite among families ",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.3,
+        "Lat":-6.568697,
+        "Long":106.845779
+    },
+    {
+        "Place_Id":58,
+        "Place_Name":"Water Park SKI",
+        "Image_Url": 
+        [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/58-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/58-B.jpg"
+        ],
+        "Description":"This 3 hectare land is full of interesting attractions for families. various kinds of slides and views of Mount Salak are the main attraction",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":60000,
+        "Rating":4.4,
+        "Lat":-6.622844,
+        "Long":106.822341
+    },
+    {
+        "Place_Id":59,
+        "Place_Name":"Curug Panjang",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/59-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/59-B.jpg"
+        ],
+        "Description":"There are many activities that can be done when someone is traveling in Curug Panjang  such as forest trekking hiking, river crossing,  body rafting,  camping, canpervan, waterfall exploring, and many others Natural",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":12000,
+        "Rating":4.7,
+        "Lat":-6.647448,
+        "Long":106.935849
+    },
+    {
+        "Place_Id":60,
+        "Place_Name":"Bukit Cinta Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/60-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/60-B.jpg"
+        ],
+        "Description":"Bukit Cinta Bogor is a stopover location for tourists who pass through the Puncak II route or from Curug. This hill is equipped with a heart ornament that is useful as a selfie photo spot for visitors with a beautiful scenic background",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":5000,
+        "Rating":4.7,
+        "Lat":-6.570348,
+        "Long":106.952487
+    },
+    {
+        "Place_Id":61,
+        "Place_Name":"Curug Jaksa",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/61-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/61-B.jpg"
+        ],
+        "Description":"This waterfall has a height of 45 meters with a swift flow of water and here  visitors can also see various native clay animals from Mount Gede Pangrongo",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.6,
+        "Lat":-6.73036,
+        "Long":106.954185
+    },
+    {
+        "Place_Id":62,
+        "Place_Name":"Museum Zoologi",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/63-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/63-B.jpg"
+        ],
+        "Description":"A museum that houses a unique collection of animals since 1894. It has a unique architectural style that attracts visitors",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.603547,
+        "Long":106.796954
+    },
+    {
+        "Place_Id":63,
+        "Place_Name":"Gunung Pancar",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/62-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/62-B.jpg"
+        ],
+        "Description":"Mount Pancar is located in the Sentul area Bogor precisely in Karang Tengah Village Babakan Madang Bogor West Java. The location is close to Jungle Land tourist attractions",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":5000,
+        "Rating":4.7,
+        "Lat":-6.58871,
+        "Long":106.913203
+    },
+    {
+        "Place_Id":64,
+        "Place_Name":"Air Terjun Bidadari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/64-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/64-B.jpg"
+        ],
+        "Description":"With a height of 75 meters the source of this waterfall comes from the protected forest around the area. The overflow of water is used for various kinds of rides such as Wave Pool current pool Lazy Pool which is made for children",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":45000,
+        "Rating":4.7,
+        "Lat":-6.613797,
+        "Long":106.908364
+    },
+    {
+        "Place_Id":65,
+        "Place_Name":"Paralayang Bukit Gantole Puncak",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/65-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/65-B.jpg"
+        ],
+        "Description":"This Bogor tourist spot is most suitable for extreme sports lovers",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":13000,
+        "Rating":4.6,
+        "Lat":-6.701848,
+        "Long":106.984552
+    },
+    {
+        "Place_Id":66,
+        "Place_Name":"Ranggon Hills Bogor",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/66-A.jpeg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/66-B.jpg"
+        ],
+        "Description":"One of the most popular is the Ranggon Air Balloon  which presents photos on a hot air balloon like abroad",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.5,
+        "Lat":-6.60751,
+        "Long":106.692952
+    },
+    {
+        "Place_Id":67,
+        "Place_Name":"Fat Bubble",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/67-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/67-B.jpg"
+        ],
+        "Description":"provides various types of sweet foods such as waffles cakes coffee tea and others",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.5,
+        "Lat":-6.591853,
+        "Long":106.804354
+    },
+    {
+        "Place_Id":68,
+        "Place_Name":"Batik Bogor Tradisiku",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/68-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/68-B.jpg"
+        ],
+        "Description":"Various batik motifs are offered by Batik Bogor Budayaku all of which are icons of the city of Bogor. The motifs range from drizzling rain cleaver monument deer corpse flower to the perfect garden motif. Of the many batik motifs drizzling rain and the combination of the kujan deer are the most sought after by buyers",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-6.573083,
+        "Long":106.799672
+    },
+    {
+        "Place_Id":69,
+        "Place_Name":"Desa Wisata Malasari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/69-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/69-B.jpg"
+        ],
+        "Description":"Located in the Mount Halimun Salak National Park Area  this village has a beautiful panorama",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":12500,
+        "Rating":5.0,
+        "Lat":-6.679328,
+        "Long":106.521155
+    },
+    {
+        "Place_Id":70,
+        "Place_Name":"Sungai Cisadane",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/70-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/70-B.jpg"
+        ],
+        "Description":"In the upstream area of this river  the river water is still relatively clean. Coupled with the swift currents make this river popular as a rafting area in Bogor",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":185000,
+        "Rating":4.7,
+        "Lat":-6.606157,
+        "Long":106.793922
+    },
+    {
+        "Place_Id":71,
+        "Place_Name":"Saung Kuring",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/71-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/71-B.jpg"
+        ],
+        "Description":"The concept of Lesehan in Saung makes the atmosphere in Saung Kuring very comfortable plus delicious food adds to the attraction",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.5,
+        "Lat":-6.561836,
+        "Long":106.799167
+    },
+    {
+        "Place_Id":72,
+        "Place_Name":"Fishing Valley",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/72-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/72-B.jpg"
+        ],
+        "Description":"a place that offers an exciting experience in fishing. where you can unwind by fishing",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":35000,
+        "Rating":4.4,
+        "Lat":-6.535418,
+        "Long":106.805333
+    },
+    {
+        "Place_Id":73,
+        "Place_Name":"Gunung Batu Jonggol",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/73-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/73-B.jpg"
+        ],
+        "Description":"Mount Batu Jonggol in Sukamakmur Bogor West Java is not too high only about 875 meters above sea level. With this height this mountain can be the right choice for novice climbers",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.4,
+        "Lat":-6.600478,
+        "Long":107.051805
+    },
+    {
+        "Place_Id":74,
+        "Place_Name":"Gunung Kencana",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/74-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/74-B.jpg"
+        ],
+        "Description":"The new Mount Kencana natural tourism was inaugurated around 2016. This mountain with a height of 1 803 meters above sea level is known to be friendly for novice climbers",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.6,
+        "Lat":-6.655927,
+        "Long":106.978701
+    },
+    {
+        "Place_Id":75,
+        "Place_Name":"Water Kingdom Mekarsari",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/75-A.jpeg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/75-B.jpeg"
+        ],
+        "Description":"adventure, exercise, as well as relax and have fun at Water Kingdom Mekarsari. each ride has its own uniqueness",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":95000,
+        "Rating":4.1,
+        "Lat":-6.410331,
+        "Long":106.994394
+    },
+    {
+        "Place_Id":76,
+        "Place_Name":"Kampung Wisata Cinangneg",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/76-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/76-B.jpg"
+        ],
+        "Description":"a place to teach you how to farm, raise livestock, paint, play angklung and make herbal medicine",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":145000,
+        "Rating":4.4,
+        "Lat":-6.565898,
+        "Long":106.711487
+    },
+    {
+        "Place_Id":77,
+        "Place_Name":"Jumper Indoor Trampoline Park",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/77-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/77-B.jpg"
+        ],
+        "Description":"play and exercise on a trampoline. learn somersaults, fly, float and other fun things",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":70000,
+        "Rating":4.4,
+        "Lat":-6.570582,
+        "Long":106.767316
+    },
+    {
+        "Place_Id":78,
+        "Place_Name":"Hiking Bocah",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/78-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/78-B.jpeg"
+        ],
+        "Description":"a variety of outdoor activities with a wide choice of paths. The main activity is of course hiking through rural areas along rivers and through gardens",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":35000,
+        "Rating":4.3,
+        "Lat":-6.633071,
+        "Long":106.837703
+    },
+    {
+        "Place_Id":79,
+        "Place_Name":"Taman Meksiko",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/79-A.jpeg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/79-B.jpeg"
+        ],
+        "Description":"The park contains a collection of desert climate plant species such as cacti. lots of instagramable spots",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":9500,
+        "Rating":4.6,
+        "Lat":-6.602202,
+        "Long":106.800331
+    },
+    {
+        "Place_Id":80,
+        "Place_Name":"Jumpa Bogor (JUMBO)",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/80-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/80-B.jpg"
+        ],
+        "Description":"This place is one of the great souvenir centers in the city of Bogor.",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.7,
+        "Lat":-6.561603,
+        "Long":106.794426
+    },
+    {
+        "Place_Id":81,
+        "Place_Name":"Sentra Tas Tajur",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/81-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/81-B.jpg"
+        ],
+        "Description":"Various types of bags shoes wallets and other fashion products are available at relatively low prices",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-7.501382,
+        "Long":112.70533
+    },
+    {
+        "Place_Id":82,
+        "Place_Name":"Gunung Eusing",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/82-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/82-B.jpg"
+        ],
+        "Description":"Mount Eusing is located in Gobang Village  Rumpin District  Bogor Regency. The peak is only 360 meters above sea level.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.5,
+        "Lat":-6.509037,
+        "Long":106.630532
+    },
+    {
+        "Place_Id":83,
+        "Place_Name":"Kampung Budaya Sindang Barang",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/83-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/83-B.jpg"
+        ],
+        "Description":"the place of the former kasepuhan sunda so the feel in this place will be thick with the kasepuhan sunda culture",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.4,
+        "Lat":-6.630132,
+        "Long":106.761749
+    },
+    {
+        "Place_Id":84,
+        "Place_Name":"Batik Bogor Tradisiku",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/84-A.png",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/84-B.jpg"
+        ],
+        "Description":"The motives vary ranging from rain cleaver deer Bogor Botanical Gardens Slate to the Presidential Palace. The batik here is made directly by hand by writing using canting and stamping.",
+        "Category":"Shopping",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.6,
+        "Lat":-6.573079,
+        "Long":106.799618
+    },
+    {
+        "Place_Id":85,
+        "Place_Name":"Taman Wisata Sevilage ",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/85-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/85-B.jpg"
+        ],
+        "Description":"get to know nature by playing exciting games such as Sky Nest, Sky bike to flying fox",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.5,
+        "Lat":-6.715207,
+        "Long":106.999388
+    },
+    {
+        "Place_Id":86,
+        "Place_Name":"Gunung Munara",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/86-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/86-B.jpg"
+        ],
+        "Description":"This hill is a fairly popular hiking destination. The panorama of Bogor that is presented from the peak has succeeded in making climbers fall in love",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.448393,
+        "Long":106.627663
+    },
+    {
+        "Place_Id":87,
+        "Place_Name":"Edukasi Tempeland",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/87-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/87-B.jpg"
+        ],
+        "Description":"Tempeland education teaches how to make tempe, from planting soybeans to selling",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":45000,
+        "Rating":4.7,
+        "Lat":-6.573459,
+        "Long":106.892769
+    },
+    {
+        "Place_Id":88,
+        "Place_Name":"Puncak Lalana",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/88-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/88-B.jpg"
+        ],
+        "Description":"Lalana Peak is the peak of Mount Kapur which is located in Cibadak Village. To reach the peak which has a height of 385 meters above sea level  you need to travel approximately 1 hour.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.55294,
+        "Long":106.683345
+    },
+    {
+        "Place_Id":89,
+        "Place_Name":"Gunung Kuta",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/89-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/89-B.jpeg"
+        ],
+        "Description":"This mountain which has a height of 1050 meters above sea level has an exotic view. Above the peak  you can see the charming landscapes of Mount Pancar and Mount Gede Pangrango",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.4,
+        "Lat":-6.603954,
+        "Long":106.97069
+    },
+    {
+        "Place_Id":90,
+        "Place_Name":"Taman Sakura Cibodas",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/90-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/90-B.jpg"
+        ],
+        "Description":"No need to go to Japan to see Sakura, just go to Bogor. in this place planted as many as 420 beautiful cherry trees",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":5000,
+        "Rating":4.6,
+        "Lat":-6.738578,
+        "Long":107.008292
+    },
+    {
+        "Place_Id":91,
+        "Place_Name":"Taman Bunga Nusantara",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/91-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/91-B.jpg"
+        ],
+        "Description":"an agro-tourism area that was created in 1992. You can enjoy various types of beautiful flower plants",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.4,
+        "Lat":-6.727507,
+        "Long":107.079453
+    },
+    {
+        "Place_Id":92,
+        "Place_Name":"Warso Farm",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/92-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/92-B.jpg"
+        ],
+        "Description":"Durian fans must come here because there are many durian trees. especially in harvest season you can eat ripe fruit that has just been harvested",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":50000,
+        "Rating":4.3,
+        "Lat":-6.690245,
+        "Long":106.791167
+    },
+    {
+        "Place_Id":93,
+        "Place_Name":"Breeve Hills Resto and Cafee",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/93-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/93-B.jpg"
+        ],
+        "Description":"Breeve Hills Resto & Cafee which is located at Puncak Rd Number 81  Leuwimalang  Cisarua  Bogor  West Java can be a choice of places to eat in Bogor which has a beautiful view.",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":500000,
+        "Rating":4.5,
+        "Lat":-6.664348,
+        "Long":106.92141
+    },
+    {
+        "Place_Id":94,
+        "Place_Name":"Taman Budaya Sentul City",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/94-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/94-B.jpg"
+        ],
+        "Description":"Taman Budaya Sentul City one of the largest gathering place outbond, featuring flying fox, nets, and other fun obstacles",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.5,
+        "Lat":-6.582074,
+        "Long":106.880947
+    },
+    {
+        "Place_Id":95,
+        "Place_Name":"Little Venice",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/95-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/95-B.jpg"
+        ],
+        "Description":"Feel the sensation of rowing a gondola down the water canals like in Italy",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":38500,
+        "Rating":5.0,
+        "Lat":-6.693987,
+        "Long":107.041404
+    },
+    {
+        "Place_Id":96,
+        "Place_Name":"Damar Langit",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/96-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/96-B.jpg"
+        ],
+        "Description":"a hangout place surrounded by beautiful views  especially in the afternoon you can enjoy the sunset view",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":0,
+        "Rating":4.6,
+        "Lat":-6.671361,
+        "Long":106.953943
+    },
+    {
+        "Place_Id":97,
+        "Place_Name":"Puncak Galau",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/97-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/97-B.jpg"
+        ],
+        "Description":"The peak of Galau is also in the Mount Kapur area with an altitude of 354 meters above sea level. This place is often the target of novice climbers. Besides not being too high  the view offered is also quite beautiful",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":5000,
+        "Rating":4.5,
+        "Lat":-6.5537,
+        "Long":106.688201
+    },
+    {
+        "Place_Id":98,
+        "Place_Name":"DeBoekit Cafee",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/98-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/98-B.jpg"
+        ],
+        "Description":"modern cafe with a beautiful feel. One of the dishes that must be ordered is the Manglayang Happy Bowl",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":270000,
+        "Rating":4.3,
+        "Lat":-6.550417,
+        "Long":106.890633
+    },
+    {
+        "Place_Id":99,
+        "Place_Name":"Curug Batu Gede",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/99-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/99-B.jpg"
+        ],
+        "Description":"Batu Gede Camping Ground provides a Camping Ground in the tourist area of Puncak Bogor. Breathtaking natural characteristics  soothing peak views and cool air",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":175000,
+        "Rating":4.4,
+        "Lat":-6.647284,
+        "Long":106.753044
+    },
+    {
+        "Place_Id":100,
+        "Place_Name":"Curug Lontar",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/100-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/100-B.jpg"
+        ],
+        "Description":"This waterfall, which is located in Karacak Village, is often used as a source of electricity generation and is still part of the Cianten River originating from the Halimun Salak Mountains.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.636431,
+        "Long":106.639169
+    },
+    {
+        "Place_Id":101,
+        "Place_Name":"Curug Kiara",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/101-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/101-B.jpg"
+        ],
+        "Description":"Being able to enjoy a beautiful waterfall between the soaring cliffs requires a lot of effort. You have to go down slippery bamboo stairs with a 90 degree incline! So vigilance and caution are needed.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.0,
+        "Lat":-6.684026,
+        "Long":106.711036
+    },
+    {
+        "Place_Id":102,
+        "Place_Name":"Curug Bulao",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/102-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/102-B.jpg"
+        ],
+        "Description":"a bluish pool at the bottom. The original name of this waterfall is actually Curug Hulu",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.644891,
+        "Long":106.950821
+    },
+    {
+        "Place_Id":103,
+        "Place_Name":"Highlanders Cafee Sentul",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/103-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/103-B.jpg"
+        ],
+        "Description":"a restaurant with many photo spots plus the famous sambal matah rice bowl is one of the mandatory menus here",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.3,
+        "Lat":-6.615364,
+        "Long":106.901917
+    },
+    {
+        "Place_Id":104,
+        "Place_Name":"Curug Leuwi Hejo",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/104-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/104-B.jpg"
+        ],
+        "Description":"This Barong Leuwi Hejo waterfall has a unique rock texture with clear water quality and a view that refreshes the eyes",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":25000,
+        "Rating":4.4,
+        "Lat":-6.592453,
+        "Long":106.954969
+    },
+    {
+        "Place_Id":105,
+        "Place_Name":"Curug Goa Lumut Indah",
+        "Image_Url":[
+        "https://storage.googleapis.com/bogorism/imagesPlaces/105-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/105-B.jpg"
+        ],
+        "Description":"This waterfall is called Goa Lumut  because its location is in a rocky niche that resembles the lip of a cave where the rocks are covered with green moss that looks like velvet.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.4,
+        "Lat":-6.9503,
+        "Long":106.687745
+    },
+    {
+        "Place_Id":106,
+        "Place_Name":"Pendopo Ciherang",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/106-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/106-B.jpg"
+        ],
+        "Description":"a back to nature themed staycation is suitable for clearing your mind. good food makes this place suitable for you",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":60000,
+        "Rating":4.1,
+        "Lat":-6.592545,
+        "Long":106.032158
+    },
+    {
+        "Place_Id":107,
+        "Place_Name":"Curug Cikawah",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/107-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/107-B.jpg"
+        ],
+        "Description":"This waterfall which is located in Ciasmara Village has a slippery and steep route. Walking there you will find the confluence of two rivers namely on the left the water is very clear and cold and can be drunk while on the right the water is warm and mixed with sulfur which is the flow of Curug Cikawah.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.723712,
+        "Long":106.663568
+    },
+    {
+        "Place_Id":108,
+        "Place_Name":"Pasir Angin Pas",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/108-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/108-B.jpg"
+        ],
+        "Description":"a beautiful place to eat that serves a variety of Indonesian dishes",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":62000,
+        "Rating":4.4,
+        "Lat":-6.645092,
+        "Long":106.866781
+    },
+    {
+        "Place_Id":109,
+        "Place_Name":"Kopi Tubing",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/109-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/109-B.jpg"
+        ],
+        "Description":"Unique coffee shop on the river bank. enjoy a glass of iced coffee with milk tubing and accompany the splash of river water",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":37000,
+        "Rating":4.5,
+        "Lat":-6.683015,
+        "Long":106.663727
+    },
+    {
+        "Place_Id":110,
+        "Place_Name":"Bree Coffe",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/110-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/110-B.jpg"
+        ],
+        "Description":"A cafe with a greenhouse-like building is the main attraction. The unique thing is that you can find a big teddy bear",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":30000,
+        "Rating":4.6,
+        "Lat":-6.679114,
+        "Long":106.79264
+    },
+    {
+        "Place_Id":111,
+        "Place_Name":"Resto Kebun Raya",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/111-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/111-B.jpg"
+        ],
+        "Description":"Mr. Jokowi and Mr. Obama's hangout place. eat delicious food in the middle of a beautiful garden",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":23000,
+        "Rating":4.5,
+        "Lat":-6.598668,
+        "Long":106.80381
+    },
+    {
+        "Place_Id":112,
+        "Place_Name":"Dulang Restourant",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/112-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/112-B.jpg"
+        ],
+        "Description":"Explore all the local wisdom of Sundanese culture. Bakakak chicken is a favorite menu that you must order",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.2,
+        "Lat":-6.688041,
+        "Long":106.958518
+    },
+    {
+        "Place_Id":113,
+        "Place_Name":"Curug Dengdeng Rumpin",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/113-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/113-B.jpg"
+        ],
+        "Description":"The view of this waterfall is both beautiful and mystical. Although the elegance of the curves of the rock formations that frame this waterfall is quite charming  this waterfall is considered sacred by local residents. One of the taboos that should not be done is bathing here at 12.00 noon.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":5000,
+        "Rating":4.3,
+        "Lat":-6.536394,
+        "Long":106.606448
+    },
+    {
+        "Place_Id":114,
+        "Place_Name":"The Lake House",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/114-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/114-B.jpg"
+        ],
+        "Description":"A place to eat surrounded by a pond in the middle of the forest",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":30000,
+        "Rating":4.6,
+        "Lat":-6.701882,
+        "Long":106.948311
+    },
+    {
+        "Place_Id":115,
+        "Place_Name":"Curug Pasir Reungit",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/115-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/115-B.jpg"
+        ],
+        "Description":"The location is in the Pasir Reungit Village area  right at the foot of Mount Salak with an altitude of 800-900 meters above sea level. You can feel the fresh air with birds chirping  squeaking insects and the echoing sound of forest monkeys.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.3,
+        "Lat":-6.69436,
+        "Long":106.686604
+    },
+    {
+        "Place_Id":116,
+        "Place_Name":"Kopi Daong",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/116-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/116-B.jpg"
+        ],
+        "Description":"drinking coffee under the beautiful pine trees",
+        "Category":"Foods",
+        "City":"Bogor",
+        "Price":21000,
+        "Rating":4.4,
+        "Lat":-6.724691,
+        "Long":106.875597
+    },
+    {
+        "Place_Id":117,
+        "Place_Name":"Green World Adventure",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/117-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/117-B.jpg"
+        ],
+        "Description":"One of the new tourist attractions in bogor.you can grow crops, see sheep farms and enjoy various type of flower",
+        "Category":"Amusement Park",
+        "City":"Bogor",
+        "Price":22000,
+        "Rating":4.7,
+        "Lat":-6.687111,
+        "Long":106.906578
+    },
+    {
+        "Place_Id":118,
+        "Place_Name":"Curug Ciampea",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/118-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/118-B.jpg"
+        ],
+        "Description":"The uniqueness of Curug Ciampea is that it has a beautiful location and there is no entry fee  so you only need to enter voluntary money in the box provided for the construction of the tourist attraction.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":20000,
+        "Rating":4.6,
+        "Lat":-6.686642,
+        "Long":106.699969
+    },
+    {
+        "Place_Id":119,
+        "Place_Name":"Curug Kembar Ciburial",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/119-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/119-B.jpg"
+        ],
+        "Description":"The natural and beautiful atmosphere also adds to the beauty of this waterfall. Activities that you can enjoy at Curug Kembar Ciburial are enjoying the beauty of nature and clearing your mind with meditation  swimming and taking pictures with the backdrop of an exotic waterfall.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":10000,
+        "Rating":4.6,
+        "Lat":-6.601542,
+        "Long":106.959223
+    },
+    {
+        "Place_Id":120,
+        "Place_Name":"Curug Orok",
+        "Image_Url": [
+        "https://storage.googleapis.com/bogorism/imagesPlaces/120-A.jpg",
+        "https://storage.googleapis.com/bogorism/imagesPlaces/120-B.jpg"
+        ],
+        "Description":"you can exclaim to enjoy the freshness of the waterfall to jump from a 10 meter high bamboo bridge.",
+        "Category":"Natural",
+        "City":"Bogor",
+        "Price":15000,
+        "Rating":4.5,
+        "Lat":-6.64499,
+        "Long":106.95018
+    }
+]
