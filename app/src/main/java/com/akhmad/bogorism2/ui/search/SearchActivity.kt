@@ -72,15 +72,15 @@ class SearchActivity : AppCompatActivity() {
 
 
     private fun setPlaceData(placeData: List<PlaceEntity>) {
-        val  listUserAdapter = ListPlaceAdapter(placeData as ArrayList<PlaceEntity>)
-        binding.mainSearch.listItem.adapter = listUserAdapter
-        listUserAdapter.setOnItemClickCallback(object : ListPlaceAdapter.OnItemClickCallback {
+        val  listPlaceAdapter = ListPlaceAdapter(placeData as ArrayList<PlaceEntity>)
+        binding.mainSearch.listItem.adapter = listPlaceAdapter
+        listPlaceAdapter.setOnItemClickCallback(object : ListPlaceAdapter.OnItemClickCallback {
             override fun onItemClicked(data: PlaceEntity) {
-                showSelectedUser(data)
+                showSelectedPlace(data)
             }
         })
     }
-    private fun showSelectedUser(place: PlaceEntity) {
+    private fun showSelectedPlace(place: PlaceEntity) {
 //        val detailUserIntent = Intent(this, DetailActivity::class.java)
 //        detailUserIntent.putExtra(DetailActivity.EXTRA_PLACE, place.placeName)
 //        startActivity(detailUserIntent)

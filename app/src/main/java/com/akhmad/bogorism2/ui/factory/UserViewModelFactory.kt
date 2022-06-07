@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.akhmad.bogorism2.data.reference.UserReference
 import com.akhmad.bogorism2.di.UserInjection
+import com.akhmad.bogorism2.ui.category.NatureViewModel
 import com.akhmad.bogorism2.ui.login.LoginViewModel
 import com.akhmad.bogorism2.ui.main.MainViewModel
 import com.akhmad.bogorism2.ui.map.MapViewModel
@@ -32,6 +33,9 @@ class UserViewModelFactory(private val userRepository: UserReference):
             }
             modelClass.isAssignableFrom(MapViewModel::class.java) -> {
                 MapViewModel() as T
+            }
+            modelClass.isAssignableFrom(NatureViewModel::class.java) -> {
+                NatureViewModel() as T
             }
 
 

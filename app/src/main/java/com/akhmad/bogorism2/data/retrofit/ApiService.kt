@@ -1,9 +1,6 @@
 package com.akhmad.bogorism2.data.retrofit
 
-import com.akhmad.bogorism2.data.response.LoginResponse
-import com.akhmad.bogorism2.data.response.PlacesResponse
-import com.akhmad.bogorism2.data.response.RegisterResponse
-import com.akhmad.bogorism2.data.response.SearchResponse
+import com.akhmad.bogorism2.data.response.*
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -33,5 +30,11 @@ interface ApiService {
 
     @GET("places")
     fun getMarker() : Call<PlacesResponse>
+
+
+    @GET("places/{category}")
+    fun getNature(
+        @Path("category") category : String
+    ) : Call<CategoryResponse>
 
 }

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.catNature.setOnClickListener{
+        binding.catNatural.setOnClickListener{
             val intent = Intent(this, NatureActivity::class.java)
             startActivity(intent)
         }

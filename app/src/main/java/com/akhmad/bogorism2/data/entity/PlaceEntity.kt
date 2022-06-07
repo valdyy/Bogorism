@@ -10,4 +10,7 @@ data class PlaceEntity(
     @field:SerializedName("rating")
     val rating: Double,
 
+    @field:SerializedName("image_a")
+    val imageA: String
+
     )

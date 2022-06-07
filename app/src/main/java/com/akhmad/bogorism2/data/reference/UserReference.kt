@@ -22,9 +22,6 @@ class UserReference private constructor(
     private val apiService: ApiService
 ){
 
-    private val _categoryList = MutableLiveData<List<PlaceEntity>>()
-    private val _isLoading = MutableLiveData<Boolean>()
-    private val _toastText = MutableLiveData<Load<String>>()
 
 
     fun register (name: String, email: String, password: String):
