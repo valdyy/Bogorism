@@ -17,7 +17,7 @@ Used Modules :
 ## Endpoint
 ### http://35.212.162.240:8000
 
-###### Register
+##### Register
 - URL : /register
 - Method : POST
 - body req : name, email, password
@@ -27,7 +27,7 @@ Used Modules :
 &nbsp;"message": "User Created"<br>
  }<br>
 
-###### Login
+##### Login
 - URL : /login
 - Method : POST
 - Body Req : email, password
@@ -42,7 +42,7 @@ Used Modules :
 &nbsp;}<br>
 }<br>
 
-###### Get Info User by name
+##### Get Info User by name
 - URL : /users/{name}
 - Method : GET
 - Response :<br>
@@ -57,7 +57,7 @@ Used Modules :
 &nbsp;&nbsp;}<br>
 }<br>
 
-###### Get all places
+##### Get all places
 - URL : /places
 - Method : GET
 - Response : <br>
@@ -75,12 +75,14 @@ Used Modules :
 &nbsp;&nbsp;&nbsp;"rating": 4.4,<br>
 &nbsp;&nbsp;&nbsp;"lat": -6.642084,<br>
 &nbsp;&nbsp;&nbsp;"long": 106.643266<br>
+&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/1-A.jpg",<br>
+&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/1-B.jpg"<br>
 &nbsp;&nbsp;},<br>
 &nbsp;&nbsp;...<br>
 &nbsp;]<br>
 }<br>
 
-###### Get places by category with query params "category"
+##### Get places by category with query params "category"
 - URL : /places
 - req query = ?category
 - Method : GET
@@ -99,12 +101,14 @@ Used Modules :
 &nbsp;&nbsp;&nbsp;"rating": 4.4,<br>
 &nbsp;&nbsp;&nbsp;"lat": -6.642084,<br>
 &nbsp;&nbsp;&nbsp;"long": 106.643266<br>
+&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/1-A.jpg",
+&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/1-B.jpg"
 &nbsp;&nbsp;},<br>
 &nbsp;&nbsp;...<br>
 &nbsp;]<br>
 }<br>
 
-###### Search place by name
+##### Search place by name
 - URL : /search
 - req query = ?search
 - Method : GET
@@ -123,12 +127,14 @@ Used Modules :
 &nbsp;&nbsp;&nbsp;"rating": 4.4,<br>
 &nbsp;&nbsp;&nbsp;"lat": -6.642084,<br>
 &nbsp;&nbsp;&nbsp;"long": 106.643266<br>
+&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/80-A.jpg",<br>
+&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/80-B.jpg"<br>
 &nbsp;&nbsp;},<br>
 &nbsp;&nbsp;...<br>
 &nbsp;]<br>
 }
 
-###### Detail place by place name
+##### Detail place by place name
 - URL : /places/{place_name}
 - Method : GET
 - Response : <br>
@@ -152,7 +158,7 @@ Used Modules :
 &nbsp;]<br>
 }
 
-###### Get Place Recommendations by User ID
+##### Get Place Recommendations by User ID
 - URL : /recommend/{id}
 - Method : GET
 - Response : 
