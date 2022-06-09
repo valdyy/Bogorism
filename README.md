@@ -1,18 +1,30 @@
 # Bogorism
 ## Bogorism is an app that recommends tourist spots in the area.
-==
+==============
 this project using express framework to create RESTFul API easily
 Used Modules :
-- "mysql" to connect with MySQL 
-- "body-parser" to parse parameter
-- "crypto" to encrypt password
-- "uuid" to create unique id
-- "@tensorflow/tfjs" for the Machine Learning Model Implementations to API
+- **"mysql"** to connect with MySQL 
+- **"body-parser"** to parse parameter
+- **"crypto"** to encrypt password
+- **"uuid"** to create unique id
+- **"@tensorflow/tfjs"** for the Machine Learning Model Implementations to API
 
 ### Currently used services are :
 - Google Compute Engine
+    - Zone : us-west1-b
+    - Machine Type : e2-micro
 - Google Cloud SQL
+    - Region : us-west1
+        - Zonal availability : single zone
+    - Machine Type : db-f1-micro
+    - Storage Type : HDD
+        - Storage Sizq : 10 GB
+    - Connections : Public IP Enabled
 - Google Cloud Storage 
+    - Location : us-west1
+    - Storage Class : standard
+    - Protection : object versioning
+    - Public Access : Public to Internet
 
 ## Endpoint
 ### http://35.212.162.240:8000
