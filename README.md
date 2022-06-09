@@ -133,21 +133,44 @@ Used Modules :
 - Method : GET
 - Response : <br>
 {<br>
-&nbsp;"error": false,
-&nbsp;"message": "Detail for curug cikuluwung",
-&nbsp;"detail": [
-&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;"place_id": 1,
-&nbsp;&nbsp;&nbsp;"place_name": "Curug Cikuluwung",
-&nbsp;&nbsp;&nbsp;"description": "A tourist spot that serves 2 waterfalls located in Suka Asih Village Waterfall",
-&nbsp;&nbsp;&nbsp;"category": "Natural",
-&nbsp;&nbsp;&nbsp;"city": "Bogor",
-&nbsp;&nbsp;&nbsp;"price": 20000,
-&nbsp;&nbsp;&nbsp;"rating": 4.4,
-&nbsp;&nbsp;&nbsp;"lat": -6.642084,
-&nbsp;&nbsp;&nbsp;"long": 106.643266,
-&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/1-A.jpg",
-&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/1-B.jpg\r"
-&nbsp;&nbsp;}
-&nbsp;]
+&nbsp;"error": false,<br>
+&nbsp;"message": "Detail for curug cikuluwung",<br>
+&nbsp;"detail": [<br>
+&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;"place_id": 1,<br>
+&nbsp;&nbsp;&nbsp;"place_name": "Curug Cikuluwung",<br>
+&nbsp;&nbsp;&nbsp;"description": "A tourist spot that serves 2 waterfalls located in Suka Asih Village Waterfall",<br>
+&nbsp;&nbsp;&nbsp;"category": "Natural",<br>
+&nbsp;&nbsp;&nbsp;"city": "Bogor",<br>
+&nbsp;&nbsp;&nbsp;"price": 20000,<br>
+&nbsp;&nbsp;&nbsp;"rating": 4.4,<br>
+&nbsp;&nbsp;&nbsp;"lat": -6.642084,<br>
+&nbsp;&nbsp;&nbsp;"long": 106.643266,<br>
+&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/1-A.jpg",<br>
+&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/1-B.jpg\r"<br>
+&nbsp;&nbsp;}<br>
+&nbsp;]<br>
+}
+
+###### Get Place Recommendations by User ID
+- URL : /recommend/{id}
+- Method : GET
+- Response : 
+{<br>
+&nbsp;"recommendationResults": [<br>
+&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;"place_id": 80,<br>
+&nbsp;&nbsp;&nbsp;"place_name": "Jumpa Bogor (JUMBO)",<br>
+&nbsp;&nbsp;&nbsp;"description": "This place is one of the great souvenir centers in the city of Bogor.",<br>
+&nbsp;&nbsp;&nbsp;"category": "Shopping",<br>
+&nbsp;&nbsp;&nbsp;"city": "Bogor",<br>
+&nbsp;&nbsp;&nbsp;"price": 0,<br>
+&nbsp;&nbsp;&nbsp;"rating": 4.7,<br>
+&nbsp;&nbsp;&nbsp;"lat": -6.561603,<br>
+&nbsp;&nbsp;&nbsp;"long": 106.794426,<br>
+&nbsp;&nbsp;&nbsp;"image_a": "https://storage.googleapis.com/bogorism/imagesPlaces/80-A.jpg",<br>
+&nbsp;&nbsp;&nbsp;"image_b": "https://storage.googleapis.com/bogorism/imagesPlaces/80-B.jpg"<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;...<br>
+&nbsp;]<br>
 }
