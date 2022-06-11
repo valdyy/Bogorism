@@ -26,5 +26,6 @@
     <string name="my_loc">My Location</string>
     <string name="search">Search</string>
     <string name="rating">Rating :</string>
-    <string name="nature">Natural</string>
+    <string name="detail">Detail</string>
+
 </resources>

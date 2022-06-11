@@ -8,5 +8,9 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
+
+
+        supportActionBar?.title = resources.getString(R.string.detail)
+
     }
 }
